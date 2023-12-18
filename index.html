@@ -1,127 +1,241 @@
 <html lang="es" data-dark>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"
-        integrity="sha384-11X1bEJVFeFtn94r1jlvSC7tlJkV2VJctorjswdLzqOJ6ZvYBSZQkaQVXG0R4Flt"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
-        integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/dark-mode.css">
-    <link rel="stylesheet" href="./css/contenedorproyectos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"
+      integrity="sha384-11X1bEJVFeFtn94r1jlvSC7tlJkV2VJctorjswdLzqOJ6ZvYBSZQkaQVXG0R4Flt"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/dark-mode.css" />
+    <link rel="stylesheet" href="./css/contenedorproyectos.css" />
+    <link rel="icon" href="./img/icono.svg" type="image/x-icon" />
     <title>Portfolio: Izan Fernández</title>
-</head>
+  </head>
 
-<body id="inicio" data-dark>
-
+  <body id="inicio" data-dark>
     <div class="xd">
-        <button class="panel-btn hamburger hamburger--vortex" type="button">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-        </button>
+      <button class="panel-btn hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
     </div>
 
     <header class="contenedor__header" data-dark>
-        <ul class="contenedor__navegacion">
-            <ul class="iconos__presentacion">
-                <li><a href="https://linkedin.com/in/izan-fernández" class="footer__linkedin"
-                        target="_blank"><i class="fa-brands fa-linkedin iconosfooter"></i></a>
-                </li>
-                <li><a href="https://github.com/Akach4n" class="footer__instagram"
-                        target="_blank"><i class="fa-brands fa-github iconosfooter"></i></a>
-                </li>
-                <li class="footer__envelope"><a href="mailto:izanpersonaal@gmail.com"><i
-                            class="fas fa-envelope iconosfooter"></i></a></li>
-            </ul>
-
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link" href="#inicio">Inicio</a>
-            </li>
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link"
-                    href="#skills">Lenguajes</a>
-            </li>
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link"
-                    href="#proyectos">Proyectos</a></li>
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link"
-                    href="#contacto">Contacto</a></li>
-            <button class="dark-theme-btn">🌙</button>
+      <ul class="contenedor__navegacion">
+        <ul class="iconos__presentacion">
+          <li>
+            <a
+              href="https://linkedin.com/in/izan-fernández"
+              class="footer__linkedin"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin iconosfooter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Akach4n"
+              class="footer__instagram"
+              target="_blank"
+              ><i class="fa-brands fa-github iconosfooter"></i
+            ></a>
+          </li>
+          <li class="footer__envelope">
+            <a href="mailto:izanpersonaal@gmail.com"
+              ><i class="fas fa-envelope iconosfooter"></i
+            ></a>
+          </li>
         </ul>
+
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#inicio">Inicio</a>
+        </li>
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#skills">Lenguajes</a>
+        </li>
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#proyectos"
+            >Proyectos</a
+          >
+        </li>
+        <button class="dark-theme-btn">🌙</button>
+      </ul>
     </header>
 
     <div class="contenedor__fondo--presentacion" data-dark>
-        <h2 class="texto__presentacion">Hola, Soy Izan Fernández</h2>
-        <p class="texto__presentacion">Soy estudiante de informática</p>
-        <div class="texto__presentacion--div">
-        <a class="texto__presentacion--pdf" download href="./recursos/CV.pdf">Descargar CV <i
-                class="fa-solid fa-file-arrow-down"></i></a>
-        </div>
+      <h2 class="texto__presentacion">Hola, Soy Izan Fernández</h2>
+      <p class="texto__presentacion">Soy estudiante de informática</p>
+      <div class="texto__presentacion--div">
+        <a class="texto__presentacion--pdf" download href="./recursos/CV.pdf"
+          >Descargar CV <i class="fa-solid fa-file-arrow-down"></i
+        ></a>
+      </div>
     </div>
 
-    <section class="contenedor__fondo" data-dark>
-    </section>
+    <section class="contenedor__fondo" data-dark></section>
 
     <main id="skills" class="contenedor__skills" data-dark>
-        <h1 class="contenedor__skills-h1"> Lenguajes que he tocado y sigo aprendiendo  </h1>
-        <ul class="contenedor__lenguajes">
-            <li class="logo-lenguajes"><img alt="Cpp" title="Cpp" class="logo-lenguajes--img" src="./img/cpp.svg">CPP</li>
-            <li class="logo-lenguajes"><img alt="Python" title="Python" class="logo-lenguajes--img" src="./img/python.svg">Python</li>
-            <li class="logo-lenguajes"><img alt="Java"  title="Java"  class="logo-lenguajes--img" src="./img/java.svg">Java</li>
-            <li class="logo-lenguajes"><img alt="JavaScript" title="JavaScript" class="logo-lenguajes--img" src="./img/jss.svg">JavaScript</li>
-            <li class="logo-lenguajes"><img alt="HTML" title="HTML" class="logo-lenguajes--img" src="./img/html.svg">Html</li>
-            <li class="logo-lenguajes"><img alt="Git" title="Git"  class="logo-lenguajes--img" src="./img/css.svg">css</li>
-            <li class="logo-lenguajes"><img alt="GitHub" title="GitHub"  class="logo-lenguajes--img" src="img/github.svg">GitHub</li>
-        </ul>
+      <h1 class="contenedor__skills-h1">
+        Lenguajes que he tocado y sigo aprendiendo
+      </h1>
+      <ul class="contenedor__lenguajes">
+        <li class="logo-lenguajes">
+          <img
+            alt="Cpp"
+            title="Cpp"
+            class="logo-lenguajes--img"
+            src="./img/cpp.svg"
+          />CPP
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="Python"
+            title="Python"
+            class="logo-lenguajes--img"
+            src="./img/python.svg"
+          />Python
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="Java"
+            title="Java"
+            class="logo-lenguajes--img"
+            src="./img/java.svg"
+          />Java
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="JavaScript"
+            title="JavaScript"
+            class="logo-lenguajes--img"
+            src="./img/jss.svg"
+          />JavaScript
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="HTML"
+            title="HTML"
+            class="logo-lenguajes--img"
+            src="./img/html.svg"
+          />Html
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="Css"
+            title="Css"
+            class="logo-lenguajes--img"
+            src="./img/css.svg"
+          />css
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="GitHub"
+            title="GitHub"
+            class="logo-lenguajes--img"
+            src="img/github.svg"
+          />GitHub
+        </li>
+      </ul>
     </main>
 
     <div class="contenedor__proyectos" id="proyectos" data-dark>
-        <h2 class="contenedor__proyectos--h2"> Proyectos </h2>
+      <h2 class="contenedor__proyectos--h2">Proyectos</h2>
     </div>
 
     <section class="contenedor__proyecto--div" data-dark>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/react.png" alt="busqueda-img-app" title="busqueda-de-imagenes" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://github.com/Akach4n/react-curso/tree/main/react-curso" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Una pequeña prueba con</p>
-            <p> React </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/calculadora-cpp.png" alt="calculadora-cpp" title="calculadora-cpp" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://github.com/Akach4n/Calculadora" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Ejercicio de calculadora </p>
-            <p> con c++</p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/web.png" alt="busqueda-img-app" title="busqueda-de-imagenes" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://github.com/Akach4n/WebDev/tree/main/ejercicios/Ej1" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Ejercicio básico de:</p>
-            <p> HTML - CSS - JS</p>
-        </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/react.png"
+          alt="busqueda-img-app"
+          title="Api Rest"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Akach4n/react-curso/tree/main/react-curso"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Una pequeña prueba con</p>
+        <p>React</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/calculadora-cpp.png"
+          alt="calculadora-cpp"
+          title="calculadora-cpp"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Akach4n/Calculadora"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Ejercicio de calculadora</p>
+        <p>con c++</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/web.png"
+          alt="busqueda-img-app"
+          title="HTML - CSS - JS"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Akach4n/WebDev/tree/main/ejercicios/Ej1"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Ejercicio básico de:</p>
+        <p>HTML - CSS - JS</p>
+      </article>
     </section>
 
     <footer>
-        <div class="footer" data-dark>
-            <ul class="footer__ul">
-                <li><a rel="noopener noreferrer" href="https://linkedin.com/in/izan-fernández"
-                        class="footer__linkedin" target="_blank"><i class="fa-brands fa-linkedin iconosfooter"></i></a>
-                </li>
-                <li><a rel="noopener noreferrer" href="https://github.com/Akach4n"
-                        class="footer__instagram" target="_blank"><i class="fa-brands fa-github iconosfooter"></i></a>
-                </li>
-                <li class="footer__envelope"><a href="mailto:izanpersonaal@gmail.com"><i
-                            class="fas fa-envelope iconosfooter"></i></a></li>
-
-            </ul>
-        </div>
+      <div class="footer" data-dark>
+        <ul class="footer__ul">
+          <li>
+            <a
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/izan-fernández"
+              class="footer__linkedin"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin iconosfooter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              rel="noopener noreferrer"
+              href="https://github.com/Akach4n"
+              class="footer__instagram"
+              target="_blank"
+              ><i class="fa-brands fa-github iconosfooter"></i
+            ></a>
+          </li>
+          <li class="footer__envelope">
+            <a href="mailto:izanpersonaal@gmail.com"
+              ><i class="fas fa-envelope iconosfooter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-
-</body>
-<script defer src="app.js"></script>
-
+  </body>
+  <script defer src="app.js"></script>
 </html>
