@@ -1,6 +1,6 @@
 /* BOTON DARK MODE*/
 .dark-theme-btn {
-    background-color: burlywood;
+    background-color: rgb(136, 192, 189);
     color: rgb(255, 255, 0);
     border: none;
     font-size: 1.7em;
@@ -9,86 +9,86 @@
 
 /* DARK MODE */
 .dark-mode {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
     color: #DDDDDD;
 }
 
 .dark-mode .contenedor__navegacion.activo {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
 }
 .dark-mode .contenedor__navegacion {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
 }
 .dark-mode .hamburger-inner {
-    background-color: rgb(255 153 0) !important;
+    background-color: rgba(69, 85, 255, 0.865) !important;
 }
 
 .dark-mode .hamburger-inner:after {
-    background-color: rgb(255 153 0) !important;
+    background-color: rgba(69, 85, 255, 0.865) !important;
 }
 .dark-mode small {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 .dark-mode .h2__input {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 .dark-mode .hamburger-inner:before {
-    background-color: rgb(255 153 0) !important;
+    background-color: rgba(69, 85, 255, 0.865) !important;
 }
 
 .dark-mode .dark-theme-btn {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
 }
 
 .dark-mode .contenedor__fondo--presentacion {
-    background: radial-gradient(#2f2c2c, #01a4ff00);
+    background: radial-gradient(#201e1e, #01a4ff00);
 }
 
 .dark-mode a {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 .dark-mode .texto__presentacion--pdf {
-    color: #2f2c2c;
+    color: #201e1e;
 }
 .dark-mode .texto__presentacion {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 
 .dark-mode .texto__presentacion--pdf:hover {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 .dark-mode .contenedor__header {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
     
 }
 
 .dark-mode .contenedor__skills-h1 {
-    color: rgb(255 153 0);
-    background-color: #2f2c2c;
+    color: rgba(69, 85, 255, 0.865);
+    background-color: #201e1e;
 }
 
 .dark-mode .contenedor__proyecto--div {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
 }
 
 .dark-mode .contenedor__form--h2 {
-    background-color: #2f2c2c;
-    color: rgb(255 153 0);
+    background-color: #201e1e;
+    color: rgba(69, 85, 255, 0.865);
 }
 
 .dark-mode .contenedor__proyectos--h2 {
-    color: rgb(255 153 0);
-    background-color: #2f2c2c;
+    color: rgba(69, 85, 255, 0.865);
+    background-color: #201e1e;
 
 }
 .dark-mode p {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 .dark-mode .footer__ul {
-    background-color: #2f2c2c;
+    background-color: #201e1e;
 }
 
 .dark-mode .iconosfooter {
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 
 }
