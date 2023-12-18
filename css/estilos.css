@@ -64,7 +64,6 @@ a {
     color: #dddddd;
     position: absolute;
     z-index: 2;
-    background: radial-gradient(#2f2c2c, #01a4ff00);
 }
 
 /* Contenedor del Header Principal */
@@ -86,6 +85,7 @@ a {
 
 /* PRESENTACION DEL TEXTO MARTIN MESSNER */
 .texto__presentacion {
+    margin-left: 10px;
     font-size: 2em;
     letter-spacing: 1px;
     color: rgb(255 153 0);
@@ -96,6 +96,7 @@ a {
     border-radius: 35px;
     letter-spacing: 4px;
     padding: 15px;
+    margin-left: 10px;
 }
 .texto__presentacion--pdf:hover {
     background-color: #2f2c2c;
@@ -108,14 +109,22 @@ a {
 .contenedor__navegacion {
     display: flex;
     justify-content: flex-end;
-    background-color: burlywood;
+    background-color: rgb(136, 192, 189);
 }
 
-/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects de la barra de navegacion */
 .contenedor__navegacion--nav {
     padding: 10px;
     font-size: 2em;
 }
+.contenedor__navegacion--nav:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
 
 #skills,
 #proyectos,
@@ -136,12 +145,12 @@ a {
     display: flex;
     font-size: 2.3em;
     color: #000000;
-    background-color: burlywood;
+    background-color: rgb(136, 192, 189);
 }
 
 /* Contenedor Skills  */
 .contenedor__skills {
-    background-color: burlywood;
+    background-color: rgb(136, 192, 189);
 
 }
 
@@ -170,7 +179,7 @@ a {
 
 /* Fondo del contenedor del formulario */
 .contenedor__form {
-    background-color: burlywood;
+    background-color: rgb(136, 192, 189);
 }
 
 .boton__div {
@@ -240,7 +249,7 @@ p {
     display: flex;
     font-size: 3em;
     justify-content: center;
-    background-color: burlywood;
+    background-color: rgb(136, 192, 189);
 }
 
 /* IConos FOOTER */
@@ -310,7 +319,7 @@ p {
         flex-direction: column;
         background-color: #202124;
         scroll-behavior: smooth;
-        background-color: burlywood;
+        background-color: rgb(136, 192, 189);
 
     }
 
