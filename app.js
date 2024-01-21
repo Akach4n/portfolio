@@ -2,8 +2,8 @@ function darkThemee (btn,classDark) {
     const $themeBtn = document.querySelector(btn)
     const $selectors = document.querySelectorAll("[data-dark]");
 
-    let moon = "🌙";
-    let sun = "☀️";
+    let moon = "☀️";
+    let sun = "🌙";
 
     const lightMode = () => {
         $selectors.forEach(el => el.classList.remove(classDark));
@@ -39,7 +39,7 @@ function darkThemee (btn,classDark) {
     
 }
 
-darkThemee(".dark-theme-btn","dark-mode");
+darkThemee(".dark-theme-btn","light-mode");
 
 const acordeon = document.querySelector(".panel-btn")
 const navegacion = document.querySelector(".contenedor__navegacion")

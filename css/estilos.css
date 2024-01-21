@@ -10,7 +10,7 @@ html {
 
 /* Background-color: GRIS PARA VER SI USAR background-color: rgb(60, 60, 60); */
 body {
-    background-color: rgb(5 4 4 / 89%);
+    background-color: rgb(5 4 4 / 95%);
     font-family: serif;
 }
 
@@ -19,6 +19,10 @@ textarea {
 }
 
 /* sacar decoracion li y a */
+li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.865);
+}
 ul {
     list-style: none;
 }
@@ -28,9 +32,15 @@ small {
 a {
     text-decoration: none;
     font-size: .8em;
-    color: #2f2c2c;
+    color: #201e1e;
 }
-
+.dark-theme-btn {
+    background-color: #201e1e;
+    color: rgb(255, 255, 0);
+    border: none;
+    font-size: 1.7em;
+    cursor: pointer;
+}
 .panel-btn {
     position: fixed;
     z-index: 25;
@@ -61,7 +71,7 @@ a {
 
 .contenedor__fondo--presentacion {
     padding-top: 8em;
-    color: #dddddd;
+    background: radial-gradient(#201e1e, #01a4ff00);
     position: absolute;
     z-index: 2;
 }
@@ -83,15 +93,15 @@ a {
     left: 0vh;
 }
 
-/* PRESENTACION DEL TEXTO MARTIN MESSNER */
+/* PRESENTACION DEL TEXTO */
 .texto__presentacion {
     margin-left: 10px;
     font-size: 2em;
     letter-spacing: 1px;
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 .texto__presentacion--pdf {
-    background-color: rgb(255 153 0);
+    background-color: rgba(68, 147, 72, 0.865);
     font-size: 1.5em;
     border-radius: 35px;
     letter-spacing: 4px;
@@ -99,8 +109,8 @@ a {
     margin-left: 10px;
 }
 .texto__presentacion--pdf:hover {
-    background-color: #2f2c2c;
-    color: rgb(255 153 0);
+    background-color: #201e1e;
+    color: rgba(69, 85, 255, 0.865);
 }
 .texto__presentacion--div {
     padding-top: 2em;
@@ -109,7 +119,10 @@ a {
 .contenedor__navegacion {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(136, 192, 189);
+    background-color: #201e1e;
+}
+.contenedor__navegacion--link{
+    color: rgba(69, 85, 255, 0.865);
 }
 
 /* fuente y padding de home, proyects de la barra de navegacion */
@@ -136,6 +149,10 @@ a {
 
 
 /* Zona de : Skills y Contacto h1 y h2 */
+.contenedor__proyecto--div {
+    background: #201e1e !important;
+    
+}
 .contenedor__skills-h1,
 .contenedor__form--h2,
 .contenedor__proyectos--h2 {
@@ -144,13 +161,13 @@ a {
     justify-content: center;
     display: flex;
     font-size: 2.3em;
-    color: #000000;
-    background-color: rgb(136, 192, 189);
+    color: rgba(69, 85, 255, 0.865);
+    background-color: #201e1e;
 }
 
 /* Contenedor Skills  */
 .contenedor__skills {
-    background-color: rgb(136, 192, 189);
+    background-color: #201e1e;
 
 }
 
@@ -179,16 +196,16 @@ a {
 
 /* Fondo del contenedor del formulario */
 .contenedor__form {
-    background-color: rgb(136, 192, 189);
+    background-color: #201e1e;
 }
 
 .boton__div {
     padding: 10px;
     background-color: rgb(0, 0, 0);
-    color:  rgb(255 153 0);
+    color:  rgba(69, 85, 255, 0.865);
     cursor: pointer;
     width: 49%;
-    border: 1px rgb(255 153 0) solid;
+    border: 1px rgba(69, 85, 255, 0.865) solid;
     border-radius: 7px;
 }
 
@@ -215,11 +232,11 @@ form {
 }
 
 .boton__enviar {
-    border: 2px solid #2f2c2c;
+    border: 2px solid #201e1e;
     font-size: 1em;
     cursor: pointer;
     background-color: rgb(0, 0, 0);
-    color: rgb(255 153 0);
+    color: rgba(69, 85, 255, 0.865);
 }
 
 .contenedor__input--div {
@@ -239,9 +256,10 @@ form {
 /*  PARRAFO LOREM DESPUES SACAR ///asdasd///asd */
 p {
     /*color:rgb(255 153 0); */
-    color: #2f2c2c;
+    color: rgba(69, 85, 255, 0.865);
     font-weight: 800;
-    font-size: 1.2em;
+    font-size: 1em;
+    margin-bottom: 1px;
 }
 
 /* Footer */
@@ -249,12 +267,12 @@ p {
     display: flex;
     font-size: 3em;
     justify-content: center;
-    background-color: rgb(136, 192, 189);
+    background-color: #201e1e;
 }
 
 /* IConos FOOTER */
 .iconosfooter {
-    color: #2f2c2c;
+    color: rgba(69, 85, 255, 0.865);
     margin: 1em;
 }
 /* IConos FOOTER:hover  */
@@ -319,7 +337,7 @@ p {
         flex-direction: column;
         background-color: #202124;
         scroll-behavior: smooth;
-        background-color: rgb(136, 192, 189);
+        background-color: #201e1e;
 
     }
 
