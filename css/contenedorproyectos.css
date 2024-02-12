@@ -76,7 +76,7 @@
 	}
 }
 
-.contenedor__proyecto--img {
+.contenedor__proyecto--img,p {
 	view-timeline-name: --image;
 	view-timeline-axis: block;
 

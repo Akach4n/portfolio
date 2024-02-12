@@ -8,10 +8,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Background-color: GRIS PARA VER SI USAR background-color: rgb(60, 60, 60); */
 body {
     background-color: rgb(5 4 4 / 95%);
-    font-family: serif;
+    font-family: 'VT323', monospace;
 }
 
 textarea {
@@ -32,26 +31,9 @@ small {
 a {
     text-decoration: none;
     font-size: .8em;
-    color: #201e1e;
-}
-.dark-theme-btn {
-    background-color: #201e1e;
-    color: rgb(255, 255, 0);
-    border: none;
-    font-size: 1.7em;
-    cursor: pointer;
-}
-.panel-btn {
-    position: fixed;
-    z-index: 25;
-    right: 1vh;
-    top: 0vh;
-    width: 4em;
-    height: 4em;
-    visibility: hidden;
+    color: #4e4e4e;
 }
 
-/* imagen en el header a la izquierda*/
 .imagen__logo {
     position: absolute;
     top: 8px;
@@ -71,7 +53,6 @@ a {
 
 .contenedor__fondo--presentacion {
     padding-top: 8em;
-    background: radial-gradient(#201e1e, #01a4ff00);
     position: absolute;
     z-index: 2;
 }
@@ -98,10 +79,11 @@ a {
     margin-left: 10px;
     font-size: 2em;
     letter-spacing: 1px;
-    color: rgba(69, 85, 255, 0.865);
+    color: rgb(255, 255, 255);
 }
 .texto__presentacion--pdf {
-    background-color: rgba(68, 147, 72, 0.865);
+    background-color: #777777;
+    color:rgb(0,0,0);
     font-size: 1.5em;
     border-radius: 35px;
     letter-spacing: 4px;
@@ -109,8 +91,8 @@ a {
     margin-left: 10px;
 }
 .texto__presentacion--pdf:hover {
-    background-color: #201e1e;
-    color: rgba(69, 85, 255, 0.865);
+    background-color: rgba(119, 119, 119,0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 .texto__presentacion--div {
     padding-top: 2em;
@@ -119,10 +101,10 @@ a {
 .contenedor__navegacion {
     display: flex;
     justify-content: flex-end;
-    background-color: #201e1e;
+    background-color: #4e4e4e;
 }
 .contenedor__navegacion--link{
-    color: rgba(69, 85, 255, 0.865);
+    color: rgb(255, 255, 255);
 }
 
 /* fuente y padding de home, proyects de la barra de navegacion */
@@ -150,7 +132,7 @@ a {
 
 /* Zona de : Skills y Contacto h1 y h2 */
 .contenedor__proyecto--div {
-    background: #201e1e !important;
+    background: #4e4e4e !important;
     
 }
 .contenedor__skills-h1,
@@ -161,13 +143,13 @@ a {
     justify-content: center;
     display: flex;
     font-size: 2.3em;
-    color: rgba(69, 85, 255, 0.865);
-    background-color: #201e1e;
+    color: rgb(255, 255, 255);
+    background-color: #4e4e4e;
 }
 
 /* Contenedor Skills  */
 .contenedor__skills {
-    background-color: #201e1e;
+    background-color: #4e4e4e;
 
 }
 
@@ -181,9 +163,12 @@ a {
 }
 
 /* Imagenes de los lenguajes / Html, Css, Javascript, etc */
+.logo-lenguajes{
+    font-size: 20px;
+}
 .logo-lenguajes--img {
     display: flex;
-    height: 88px;
+    height: 60px;
     padding: 10px;
     margin: 13px;
 
@@ -196,16 +181,16 @@ a {
 
 /* Fondo del contenedor del formulario */
 .contenedor__form {
-    background-color: #201e1e;
+    background-color: #4e4e4e;
 }
 
 .boton__div {
     padding: 10px;
-    background-color: rgb(0, 0, 0);
-    color:  rgba(69, 85, 255, 0.865);
+    background-color: rgb(94, 123, 138);
+    color:  rgb(0, 0, 0);
     cursor: pointer;
     width: 49%;
-    border: 1px rgba(69, 85, 255, 0.865) solid;
+    border: 1px rgb(255, 255, 255) solid;
     border-radius: 7px;
 }
 
@@ -231,13 +216,6 @@ form {
     border: 1px solid #DDDDDD;
 }
 
-.boton__enviar {
-    border: 2px solid #201e1e;
-    font-size: 1em;
-    cursor: pointer;
-    background-color: rgb(0, 0, 0);
-    color: rgba(69, 85, 255, 0.865);
-}
 
 .contenedor__input--div {
     width: 80%;
@@ -253,13 +231,11 @@ form {
     font-weight: 700;
 }
 
-/*  PARRAFO LOREM DESPUES SACAR ///asdasd///asd */
+
 p {
-    /*color:rgb(255 153 0); */
-    color: rgba(69, 85, 255, 0.865);
-    font-weight: 800;
-    font-size: 1em;
-    margin-bottom: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px;
 }
 
 /* Footer */
@@ -267,12 +243,12 @@ p {
     display: flex;
     font-size: 3em;
     justify-content: center;
-    background-color: #201e1e;
+    background-color: #4e4e4e;
 }
 
 /* IConos FOOTER */
 .iconosfooter {
-    color: rgba(69, 85, 255, 0.865);
+    color: rgb(255, 255, 255);
     margin: 1em;
 }
 /* IConos FOOTER:hover  */
@@ -337,7 +313,7 @@ p {
         flex-direction: column;
         background-color: #202124;
         scroll-behavior: smooth;
-        background-color: #201e1e;
+        background-color: #4e4e4e;
 
     }
 
